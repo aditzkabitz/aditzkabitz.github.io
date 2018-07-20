@@ -1,16 +1,15 @@
 body {
   color: white;
-/*   background: honeydew; */
-/*   background-image:url('/ggbridge.gif'); */
   font-family: Calibri, sans-serif;
-/*   background-size:100%;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
-  height:100%;
-  width:100%;
-  margin: 0;
-  padding-left: 10px;
-  max-width: 700px; */
+      text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
 }
 
 .headshot-size {
