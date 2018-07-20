@@ -1,7 +1,7 @@
 body {
   color: white;
   font-family: Calibri, sans-serif;
-      text-shadow:
+/*       text-shadow:
         0.05em 0 black,
         0 0.05em black,
         -0.05em 0 black,
@@ -9,7 +9,7 @@ body {
         -0.05em -0.05em black,
         -0.05em 0.05em black,
         0.05em -0.05em black,
-        0.05em 0.05em black;
+        0.05em 0.05em black; */
 }
 
 .headshot-size {
