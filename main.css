@@ -40,6 +40,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('webvid.mp4');
   min-height: 100%;
   min-width: 100%;
 }
