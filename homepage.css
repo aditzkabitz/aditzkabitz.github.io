@@ -1,0 +1,64 @@
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+body, html{
+	text-align: center;
+	font-size: 90px;
+	font-family: tahoma;
+	height: 100%;
+	/*background: linear-gradient(315deg, #723362, #9d223c);*/
+	overflow: hidden;
+	color: white; 
+}
+
+.introPhrase{
+	position: relative;
+	top: calc(30% - 60px);
+	/*text-shadow: 0 0 3px white;*/
+	color: white;
+	font-size: 50px;
+	font-family: 'Coming Soon', cursive;
+}
+
+.subintroPhrase{
+	position: relative;
+	top: calc(30% - 30px);
+	/*text-shadow: 0 0 3px white;*/
+	color: white;
+	font-size: 30px;
+	font-family: 'Coming Soon', cursive;
+}
+
+#noCenter{
+	text-align: left;
+}
+
+.resumeButton{
+	position: relative;
+	top: calc(30% - 10px);
+	/*text-shadow: 0 0 3px white;*/
+/*	color: white;
+	font-size: 30px;*/
+	font-family: 'McLaren', cursive;
+	font-size: 15px;
+}
+
+.resumeButton:hover{
+	opacity: .8;
+	color: red;
+}

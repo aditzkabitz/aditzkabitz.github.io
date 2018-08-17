@@ -1,0 +1,85 @@
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+#jumbo{
+	text-align: center;
+}
+
+#aditya{
+	width: 30%;
+	border: 5px solid black;
+}
+
+#name-title{
+	margin: 20px auto;
+}
+
+.float-img{
+	float: left;
+	clear: left;
+	margin-right: 35px;
+	margin-bottom: 5px;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #800080;
+  color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.8;
+}
+
+h1{
+	font-size: 100px;
+}
+
+
+#txt{
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+}
