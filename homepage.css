@@ -30,20 +30,30 @@ body, html{
 	position: relative;
 	top: calc(30% - 60px);
 	/*text-shadow: 0 0 3px white;*/
-	color: white;
+	color: black;
 	font-size: 50px;
 	font-family: 'Coming Soon', cursive;
-	text-shadow: 0px 4px 3px black;
+	text-shadow: 0px 4px 3px white;
 }
 
 .subintroPhrase{
 	position: relative;
 	top: calc(30% - 30px);
 	/*text-shadow: 0 0 3px white;*/
-	color: white;
+	color: black;
+	font-size: 50px;
+	font-family: 'Coming Soon', cursive;
+	text-shadow: 0px 4px 3px white;
+}
+
+.subSubintroPhrase{
+	position: relative;
+	top: calc(30% - 10px);
+	/*text-shadow: 0 0 3px white;*/
+	color: black;
 	font-size: 30px;
 	font-family: 'Coming Soon', cursive;
-	text-shadow: 0px 4px 3px black;
+	text-shadow: 0px 4px 3px white;
 }
 
 #noCenter{
@@ -52,22 +62,24 @@ body, html{
 
 .resumeButton{
 	position: relative;
-	top: calc(30% - 10px);
-	text-shadow: 0 0 3px white;
+	top: calc(30%);
+	/*text-shadow: 0 0 3px white;*/
 	color: white;
 }
 
 #resume{
 	position: relative;
-	top: calc(50% - 100px);
+	/*top: calc(50% - 130px);*/
 	font-size: 1.5em;
 	font-family: 'Raleway', sans-serif;
-	background-color: #A9A9A9
+	background-color: #778899;
+	border-color: #778899;
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
 }
 
 #resume:hover{
-	background-color: #191970;
+	/*background-color: #191970;*/
+	background-color: #4169E1;
 	color: white;
 }
