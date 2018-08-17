@@ -33,6 +33,7 @@ body, html{
 	color: white;
 	font-size: 50px;
 	font-family: 'Coming Soon', cursive;
+	text-shadow: 0px 4px 3px black;
 }
 
 .subintroPhrase{
@@ -42,6 +43,7 @@ body, html{
 	color: white;
 	font-size: 30px;
 	font-family: 'Coming Soon', cursive;
+	text-shadow: 0px 4px 3px black;
 }
 
 #noCenter{
@@ -51,14 +53,21 @@ body, html{
 .resumeButton{
 	position: relative;
 	top: calc(30% - 10px);
-	/*text-shadow: 0 0 3px white;*/
-/*	color: white;
-	font-size: 30px;*/
-	font-family: 'McLaren', cursive;
-	font-size: 15px;
+	text-shadow: 0 0 3px white;
+	color: white;
 }
 
-.resumeButton:hover{
-	opacity: .8;
-	color: red;
+#resume{
+	position: relative;
+	top: calc(50% - 100px);
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	background-color: #A9A9A9
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+#resume:hover{
+	background-color: #191970;
+	color: white;
 }
