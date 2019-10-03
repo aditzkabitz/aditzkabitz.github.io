@@ -26,7 +26,7 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                    <a href="mailto:agupta39@ucsc.edu">
+                    <a href="mailto:adgupta@umich.edu">
                       <i className="fa fa-envelope" aria-hidden="true"/>
                       email
                     </a>

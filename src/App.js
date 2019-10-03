@@ -13,16 +13,12 @@ class App extends Component {
             <Header className="header-color" title="Aditya Gupta" scroll>
                 <Navigation>
                     <Link to="/">Home</Link>
-                    <Link to="/aboutme">About Me</Link>
-                    <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
             <Drawer title="Aditya Gupta">
                 <Navigation>
                   <Link to="/">Home</Link>
-                  <Link to="/aboutme">About Me</Link>
-                  <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>

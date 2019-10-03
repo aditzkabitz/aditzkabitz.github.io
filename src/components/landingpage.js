@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import avatar from '../Image-1.png';
-import pdf from '../AGresume.pdf';
+import pdf from '../AdityaResume.pdf';
 
 class Landing extends Component {
   render() {
@@ -19,7 +19,7 @@ class Landing extends Component {
                 Hey There! I'm Aditya
               </h1>
               <h3>
-                I'm a full stack web developer
+                I'm a junior at the University of Michigan
               </h3>
               <hr/>
               <p>JavaScript (React, Vue, Node, Express) | MongoDB | HTML | CSS | Java | Python</p>
