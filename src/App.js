@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-            <Header className="header-color" title="Aditya Gupta" scroll>
+            {/* <Header className="header-color" title="Aditya Gupta" scroll>
                 <Navigation>
                     <Link to="/">Home</Link>
                     <Link to="/contact">Contact</Link>
@@ -21,7 +21,7 @@ class App extends Component {
                   <Link to="/">Home</Link>
                   <Link to="/contact">Contact</Link>
                 </Navigation>
-            </Drawer>
+            </Drawer> */}
             <Content>
                 <div className="page-content" />
                 <Main></Main>
